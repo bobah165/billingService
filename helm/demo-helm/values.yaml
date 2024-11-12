@@ -1,6 +1,6 @@
 replicas:
   _default: 1
-  dev: 3
+  dev: 1
 
 selector : dev
 
@@ -16,7 +16,7 @@ service:
 
 image:
   repository: bobah165/billing
-  tag: v1
+  tag: v4
 
 ingress:
   enabled: false
